@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #c0c0c0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.donate-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .donate-button a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .donate-button a:hover {
+            background-color: #555;
+        }
+
+.video-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .video-button a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #c0c0c0;
+        color: #333;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .video-button a:hover {
+            background-color: #d0d0d0;
+        }
+
+footer {
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+/* Gallery Styles */
+.carousel-control-prev,
+.carousel-control-next {
+    color: black;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
